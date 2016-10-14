@@ -1,0 +1,3 @@
+To compile this code, modify the Makefile,giving the location of 
+blas and the compiler name.  Then edit  init.for, and give the full
+location of indat included.

@@ -1,0 +1,11 @@
+ ftr  , precision, step,range
+ 0.150,  1.E-5, 0.5  1.E-6
+ testf,optionm
+ 1.E-5,  0
+c       aflag   function
+c       0       Classic         with Jeffrey Prior for tighter fit.
+c       1       Bryan           with Jeffrey Prior for tighter fit.
+c       2       Classic
+c       3       Bryan            
+c       4       Historic MEM    image fit to chi^2 = ndata
+

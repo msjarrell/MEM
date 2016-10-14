@@ -1,0 +1,30 @@
+ 
+Fortran Maximum Entropy codes (Mark Jarrell and Jim Gubernatis)
+--------------------------------------------------------------------------
+These codes are distributed freely under a modified version of the GPL.  The only
+conditions beyond the GPL on their use is that you must:
+
+1. Report all bugs (or suspected bugs back to jarrellphysics@gmail.com)
+2. Return significant revisions/improvements to me (email above) so that 
+   they can be distributed on this web page.
+3. For each publication that employs this code or its derivatives, you
+   must cite our review, "Bayesian Inference and the Analytic Continuation 
+   of Imaginary-Time Quantum Monte Carlo Data", M. Jarrell, and J.E. 
+   Gubernatis, Physics Reports Vol. 269 #3, pp133-195, (May, 1996).
+4. Read this review article to see how MEM should be (and not be) used!
+   
+   for a copy, see http://www.physics.uc.edu/~jarrell/PAPERS/MEM_rev.pdf
+   
+There are two subdirectories.  
+
+	1. Bryan, which preforms the MaxEnt inversion of the equations
+	G=KA given a vector G and a kernel K.
+	
+	2. Readmc, which contains the files
+	
+	rdbins.f reads in the binned QMC data, calculates the covariance.
+
+	readmc.f reads in the QMC data and the covariance, diagonalizes
+	the covariance, generates the kernel, and rotates the kernel and
+	the QMC data into the diagonal space.
+	kernel,
